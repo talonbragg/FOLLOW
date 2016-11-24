@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<script>
+			$(document).mousemove(function(e){
+				$("#twitter").css({left:e.pageX, top:e.pageY});
+			});
+		</script>
+		<style>
+			#twitter {
+				position: absolute;
+			}
+		</style>
+	<head>
+	<body>
+		<a href="https://twitter.com/braggtalon" class="twitter-follow-button" data-show-count="false" id="twitter">Follow @braggtalon</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</body>
+</html>
